@@ -1,4 +1,41 @@
-/* Change background colour */
-body {
-	background-color: #fff
+body,
+body > #vue-app,
+body > #vue-error {
+	background-color: #302F39;
+}
+
+.top-bar {
+	background-color: #383642;
+}
+
+.top-bar .controls-list .control-basket .toggle-basket-preview {
+    background-color: #1FD26A;
+}
+
+.navbar {
+	background-color: #302F39;
+	border-bottom: 1px solid #302F39;
+}
+
+.wrapper-main .navbar {
+	border-bottom: 1px solid #302F39;
+}
+
+.list-controls .list-controls-inner {
+	background: #25242C;
+}
+
+/* Mega Menu */
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse {
+	background-color: #25242C;
+}
+
+#mainNavbarCollapsable ul.mainmenu {
+	color: #EC3F8C;
+}
+
+.no-touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li:hover,
+.touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li.hover {
+	background-color: #EC3F8C !important;
+	color: #FFF !important;
 }
