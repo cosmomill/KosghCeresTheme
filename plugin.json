@@ -1,0 +1,19 @@
+{
+    "version"               :"0.0.1",
+    "name"                  :"KosghCeresTheme",
+    "description"           :"Ceres theme plugin for Kosmetikgrosshandel",
+    "namespace"             :"KosghCeresTheme",
+    "author"                :"Rene Kanzler",
+    "keywords"              : ["theme", "Ceres", "template"],
+    "type"                  :"theme",
+    "require"               : ["Ceres", "IO"],
+    "serviceProvider"       :"KosghCeresTheme\\Providers\\KosghCeresThemeServiceProvider",
+    "dataProviders"         :
+    [
+        {
+            "key"           :"KosghCeresTheme\\Containers\\KosghCeresThemeContainer",
+            "name"          :"KosghCeresTheme",
+            "description"   :"Ceres theme for Kosmetikgrosshandel"
+        }
+    ]
+}
