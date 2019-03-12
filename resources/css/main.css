@@ -1,6 +1,11 @@
 body,
 body > #vue-app,
 body > #vue-error {
+	color: #FFF;
+	background-color: #302F39;
+}
+
+.page-content {
 	background-color: #302F39;
 }
 
@@ -9,7 +14,7 @@ body > #vue-error {
 }
 
 .top-bar .controls-list .control-basket .toggle-basket-preview {
-    background-color: #1FD26A;
+	background-color: #1FD26A;
 }
 
 .navbar {
@@ -21,8 +26,8 @@ body > #vue-error {
 	border-bottom: 1px solid #302F39;
 }
 
-.list-controls .list-controls-inner {
-	background: #25242C;
+.wrapper-main .breadcrumbs {
+	background-color: #25242C;
 }
 
 /* Mega Menu */
