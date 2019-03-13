@@ -1,14 +1,18 @@
+/*
 body,
 body > #vue-app,
 body > #vue-error {
 	color: #FFF;
 	background-color: #302F39;
 }
-
+*/
+/*
 .page-content {
 	background-color: #302F39;
 }
+*/
 
+/* Header */
 .top-bar {
 	background-color: #383642;
 }
@@ -32,7 +36,7 @@ body > #vue-error {
 
 /* Mega Menu */
 nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse {
-	background-color: #25242C;
+	background-color: rgba(37, 36, 44, .9);
 }
 
 #mainNavbarCollapsable ul.mainmenu {
