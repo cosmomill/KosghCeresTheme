@@ -31,12 +31,33 @@ body > #vue-error {
 }
 
 .wrapper-main .breadcrumbs {
-	background-color: #25242C;
+	background-color: #DADAE3;
+}
+
+/* List Controls */
+.list-controls .list-controls-inner {
+	background: #DADAE3;
 }
 
 /* Mega Menu */
 nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse {
 	background-color: rgba(37, 36, 44, .9);
+}
+
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li ul.nav-dropdown-inner {
+	background-color: transparent;
+}
+
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li ul.nav-dropdown-inner .level1 > a {
+	color: #DCDBD8;
+}
+
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li ul.nav-dropdown-inner .level1 > a:hover {
+	color: #EC3F8C;
+}
+
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse {
+	column-rule: 1px solid #616161;
 }
 
 #mainNavbarCollapsable ul.mainmenu {
@@ -47,4 +68,11 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse {
 .touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li.hover {
 	background-color: #EC3F8C !important;
 	color: #FFF !important;
+}
+
+/* Back to top */
+.back-to-top {
+	opacity: 1;
+	border: 1px solid #EC3F8C;
+	background: #EC3F8C;
 }
