@@ -1,3 +1,11 @@
+a {
+	color: #39B1C6;
+}
+
+a:hover {
+	color: #00688A;
+}
+
 /*
 body,
 body > #vue-app,
@@ -21,6 +29,14 @@ body > #vue-error {
 	background-color: #1FD26A;
 }
 
+.top-bar .controls-list .control-basket .toggle-basket-preview:hover {
+	background-color: #39B1C6;
+}
+
+.top-bar .controls-list > li a:not(.btn):hover {
+    background-color: #39B1C6;
+}
+
 .navbar {
 	background-color: #302F39;
 	border-bottom: 1px solid #302F39;
@@ -34,9 +50,23 @@ body > #vue-error {
 	background-color: #DADAE3;
 }
 
+.breadcrumb-item.active {
+	color: #EC3F8C;
+}
+
 /* List Controls */
 .list-controls .list-controls-inner {
 	background: #DADAE3;
+}
+
+.list-controls .filter-toggle {
+	background-color: #1FD26A;
+	color: #DCDBD8;
+	padding: 26px 10px 26px 10px;
+}
+
+.list-controls #filterCollapse .page-content {
+	margin: 0 9px;
 }
 
 /* Mega Menu */
@@ -68,6 +98,11 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse {
 .touch nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li.hover {
 	background-color: #EC3F8C !important;
 	color: #FFF !important;
+}
+
+/* Product listing */
+.cmp-product-thumb .add-to-basket-lg-container:hover {
+    border-color: transparent #39B1C6 transparent transparent;
 }
 
 /* Back to top */
