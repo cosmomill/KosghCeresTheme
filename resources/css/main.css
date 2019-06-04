@@ -61,7 +61,7 @@ body > #vue-error {
 
 .list-controls .filter-toggle {
 	background-color: #1FD26A;
-	color: #DCDBD8;
+	color: #FFF;
 	padding: 26px 10px 26px 10px;
 }
 
@@ -78,8 +78,19 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li u
 	background-color: transparent;
 }
 
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li ul.nav-dropdown-inner > li > a {
+	color: #DCDBD8;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li ul.nav-dropdown-inner > li > a:hover {
+	color: #EC3F8C;
+}
+
 nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li ul.nav-dropdown-inner .level1 > a {
 	color: #DCDBD8;
+	font-size: 100%;
 }
 
 nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse > li ul.nav-dropdown-inner .level1 > a:hover {
@@ -110,4 +121,29 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu > li > ul.collapse {
 	opacity: 1;
 	border: 1px solid #EC3F8C;
 	background: #EC3F8C;
+}
+
+/* Buttons */
+.btn-primary, .widget-address.widget-primary .btn-primary {
+	background-color: #39B1C6;
+	border-color: #39B1C6;
+}
+
+.owl-carousel .carousel-control:hover i {
+	color: #39B1C6;
+}
+
+/* Mobile customizations */
+.navbar-toggler {
+	color: #EC3F8C;
+}
+
+/*
+.mobile-navigation ul.mainmenu.menu-active {
+	background-color: #39B1C6;
+}
+*/
+
+.mobile-navigation {
+	background: #39B1C6;
 }
